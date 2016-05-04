@@ -1,5 +1,5 @@
 Robotour - robotika.cz outdoor delivery challenge
-verze 2 (2012-11-07)
+verze 3 (2016-05-04)
 
 Cíl soutěže
 
@@ -20,7 +20,7 @@ místo cíle bude pro všechny roboty stejné.
 Mapa
 
 Roboti mohou používat pouze Open Street Map. Cokoliv co je verifikovatelné a je
-popsané na mapovými prvky je možné použít týmy pro úpravu mapy soutěžního
+popsané mapovými prvky je možné použít týmy pro úpravu mapy soutěžního
 prostoru.
 
 Roboti
@@ -32,13 +32,17 @@ nebezpečí dalo snadno stisknout.  Minimální velikost tlačítka je definovan
 vepsanou kružnicí o průměru 2cm. S robotem musí být možnost snadno manipulovat:
 libovolné dvě dospělé osoby ho mohou odnést několik desítek metrů. Je zároveň
 definovaná minimální velikost — na robotovi musí být během celé soutěže umístěn
-plný 5l pivní soudek.
+plný 5l pivní soudek (výjimkou je automatická nakládka a vykládka, viz níže).
 
 Vyjetí z cesty
 
 Je dovoleno se pohybovat pouze po parkových cestičkách. Pokud robot sjede z
 cesty, aktuální pokus pro něj končí. O jeho včasné odklizení se musí postarat
-soutěžící tým.  Překážky Na trase se mohou nacházet překážky. Kromě překážek
+soutěžící tým.  
+
+Překážky 
+
+Na trase se mohou nacházet překážky. Kromě překážek
 přirozených (lavičky atp.) mohou být na trať umísťovány i překážky umělé. Za
 typickou (umělou) překážku se považuje například figurant, papírová krabice od
 banánů či jiný robot. Roboti nesmí vejít v kontakt s překážkou. Kontakt s
@@ -60,8 +64,8 @@ Všichni roboti budou startovat současně na jedné z parkových cest (všichni
 stejné).  Startovní oblast pro jeden tým bude mít velikost cca 1.5x1.5 metru.
 Startovní oblasti budou umístěny těsně za sebou při jedné straně cesty. V rámci
 startovní oblasti může tým umístit robota podle vlastního uvážení. Pořadí
-robotů na startu bude dané výsledky v předešlých kolech (lepší robot bude blíže
-k cíli). V prvním kole bude pozice určena pořadím úspěšné homologace.  Roboti
+robotů na startu bude dané výsledky v předešlých kolech (lepší robot bude dále
+od cíle). V prvním kole bude pozice určena pořadím úspěšné homologace.  Roboti
 startují automaticky pomocí vnitřních časovačů. Minutu před startem už nesmí
 docházet k žádné interakci s robotem. Roboti, kteří vystartují před oficiálním
 startem, budou z daného kola diskvalifikování a získají nula bodů.
@@ -120,3 +124,18 @@ prezentace, veřejnost a novináře). Vítězné týmy (1. až 3. místo) pak bu
 požádány o podrobnější dokumentaci pro webovou prezentaci a tedy zjednodušení
 zapojení nováčků do soutěže v následujícím roce.
 
+
+Automatická nakládka a vykládka (novinka od 2016)
+
+Robot, který v rámci desetiminutového startovního okna dokáže naložit soudek
+a následně projede startovní čárou získá extra 50 bodů. Za automatické vyložení
+sudu v cíli získá dalších 50 bodů a cestu zpět bude absolvovat bez sudu.
+
+Nově je povolen menší náklad - 500ml plechovky (až 10ks), pokud je robot schopen
+jej automaticky naložit. Celkové rozměry robota musí být větší než 5litrový sud,
+pro snazší detekci ostatními roboty. Bonus za každou automaticky naloženou a
+v cíli automaticky vyloženou plechovku je 5 bodů.
+
+Sud/plechovky musí být 1 minutu před startem položeny na zemi v prostoru
+startovního boxu a nesmí se dotýkat robota. Žádné pomůcky (stolečky, podavače a
+pod) nejsou povoleny. 10 minut po startu musí být startovní box prázdný.
