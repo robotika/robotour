@@ -1,5 +1,5 @@
 Robotour - robotika.cz outdoor delivery challenge
-verze 3a-proposal (2016-04-28)
+verze 3 (2016-05-04)
 
 Cíl soutěže
 

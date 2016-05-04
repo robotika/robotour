@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-version 3a (2016-04-28)
+version 3 (2016-05-04)
 
 The Goal of the contest
 
