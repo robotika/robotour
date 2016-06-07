@@ -64,7 +64,7 @@ Všichni roboti budou startovat současně na jedné z parkových cest (všichni
 stejné).  Startovní oblast pro jeden tým bude mít velikost cca 1.5x1.5 metru.
 Startovní oblasti budou umístěny těsně za sebou při jedné straně cesty. V rámci
 startovní oblasti může tým umístit robota podle vlastního uvážení. Pořadí
-robotů na startu bude dané výsledky v předešlých kolech (lepší robot bude dále
+robotů na startu bude určeno výsledky z předešlých kol (lepší robot bude dále
 od cíle). V prvním kole bude pozice určena pořadím úspěšné homologace.  Roboti
 startují automaticky pomocí vnitřních časovačů. Minutu před startem už nesmí
 docházet k žádné interakci s robotem. Roboti, kteří vystartují před oficiálním
