@@ -1,5 +1,5 @@
 Robotour - robotika.cz outdoor delivery challenge
-verze 5 (2017-09-20)
+verze 6 (2018-01-31)
 
 Cíl soutěže
 
@@ -73,7 +73,9 @@ Start
 
 Všichni roboti budou startovat na některé z parkových cest v servisní
 oblasti. V okamžiku vyhlášení nového startu a cíle mohou roboti úkol okamžitě
-realizovat.
+realizovat. Souřadnice dalšího cíle bude definovaná pomocí QR kódu. V servisní
+oblasti jí zadávají sami soutěžící, ale v nakládkové a vykládkové oblasti již
+pořadatelé.
 
 Blokování dopravy
 
@@ -97,13 +99,16 @@ operace byla provedena, tj. detekovat, zda má nebo nemá naložený soudek.
 Bodování
 
 Vyhrává tým, jehož robot bude úkol nejlépe plnit. Je pouze bodované dosažení
-cílové pozice (nakládka i vykládka). Je-li navíc provedena automaticky, získává
-tým bonusové body. Robot ještě získá další bod, pokud se po splnění dodávky
-vrátí do servisní oblasti.
+cílové pozice (nakládka i vykládka, 10 bodů). Robot ještě získá dalších 10 bodů, pokud se po
+splnění dodávky vrátí do servisní oblasti. Celkově lze tedy v jednom kole získat
+až 30 bodů.
 
-Robot, který dokáže naložit soudek a následně opustí nakládkovou oblast získá
-extra bod. Za automatické vyložení sudu v cíli získá další bod.
-Celkově lze tedy v jednom kole získat až 5 bodů.
+Za vyjetí z cesty, kolizi a použití STOP tlačítka dostává robot penále
+5 bodů. Robot ale může kdykoliv během jízdy svůj pokus ukončit zastavením a
+indikaci (nejlépe pomocí blikání jako na autě), že není schopen se bezpečně
+vrátit do servisní oblasti. V tomto případě robot trestné body nezískává, ale
+dané kolo tím již pro něj končí. Skóre nemůže být záporné a tak se pro každé
+kolo provede korekce max(0, výsledek).
 
 Organizace
 
@@ -118,7 +123,7 @@ Homologace
 
 Tým se může zúčastnit soutěže, pokud ukáže, že je schopen získat alespoň jeden
 bod. Nutnou podmínkou je projet desetimetrový úsek bez kontaktu s překážkou.
-Testována bude manální nakládka s automatickým startem a funkčnost EMERGENCY
+Testována bude manuální nakládka a funkčnost NOUZOVÉHO
 STOP tlačítka.  Použití tekutin, žíravin, pyrotechnických materiálů a živých
 bytostí je zakázáno. Každý robot bude během jízd doprovázen jednou osobou z
 týmu, starší 18 let, která je za jeho chování zcela zodpovědná.
@@ -130,3 +135,11 @@ prezentace, veřejnost a novináře). Vítězné týmy (1. až 3. místo) pak bu
 požádány o podrobnější dokumentaci pro webovou prezentaci a tedy zjednodušení
 zapojení nováčků do soutěže v následujícím roce.
 
+
+APPENDIX
+
+QR Code pro `lat=49.2114278 lon=18.7445554`
+
+![QR Code](qrcode.svg)
+
+(vytvořeno pomocí https://github.com/mnooner256/pyqrcode)
