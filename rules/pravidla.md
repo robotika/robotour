@@ -1,5 +1,5 @@
 Robotour - robotika.cz outdoor delivery challenge
-verze 4 (2017-01-31)
+verze 5 (2017-09-20)
 
 Cíl soutěže
 
@@ -59,13 +59,15 @@ překážce — tj. objet ho nebo počkat, až odjede sám. Obecně budou respek
 pravidla silničního provozu: přednost zprava, vyhýbání se vpravo, předjíždění
 vlevo.
 
-Autonomní a servisní oblast
+Autonomní, semiautonomní a servisní oblast
 
 Prostor soutěže bude popisovat polygon označující takzvanou "Autonomní oblast"
 (AO). Zde se roboti mohou pohybovat pouze v autonomním režimu. V případě kolize
 nebo jiného problému musí soutěžící robota z autonomní oblasti odstranit.
 Doplňkový prostor k AO bude "Servisní oblast", kde budou probíhat veškeré
-zásahy do programu a konfigurace robota.
+zásahy do programu a konfigurace robota. Na hranici obou oblastí bude takzvaná
+"Semiautonomní oblast", ve které se již robot musí pohybovat pouze v autonomním
+režimu, ale v případě problémů může být přenesen do servisní oblasti.
 
 Start
 

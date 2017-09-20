@@ -62,14 +62,16 @@ handled. The faster robot can handle the slower robot as an obstacle, i.e.
 avoid it or wait until the obstacle disappears. In general the road rules
 will be respected: right of way, avoidance to the right, passing on the left.
 
-Autonomous and service area
+Autonomous, semiautonomous and service areas
 
 The competition area is described by polygon and it is called "Autonomous
 Area". The robots can move in this area in autonomous mode only. In the case of
 a collision, leaving the road or due to some other issues the contestants have
 to remove the robot from the Autonomous Area. The complementary space, called
 "Service Area", is the where all the maintenance and programming will take
-place.
+place. There is also "Semiautonomous Area" on the border of autonomous and
+service area. In semiautonomous area the robot has to navigate autonomously
+but in a case of problem the team can take the robot back to service area.
 
 Start
 
