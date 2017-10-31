@@ -1,0 +1,54 @@
+Robotour
+========
+:toc: preamble
+
+http://robotour.cz/[robotour] -- https://robotika.cz/[robotika.cz] outdoor delivery challenge
+
+
+== Česky
+
+Původem česká soutěž autonomních robotů pohybujících se po parkových
+cestičkách. Roboti vezou náklad (pětilitrový soudek). Soutěž se koná každoročně
+na podzim.
+
+=== Pravidla
+
+Aktuální verze pravidel je vždy k dispozici v
+https://github.com/robotika/robotour/tree/master/rules/pravidla.md[tomto repositáři] a
+zároveň https://robotika.cz/competitions/robotour/cs[online].
+
+=== Osvědčené Postupy
+
+Využijte https://github.com/robotika/robotour/issues[issues] pro sdílení
+zkušeností!  Každý z nás občas objeví nějaký užitečný kousek hardwaru či
+algoritmus nebo něco jiného, co zásadním způsobem přispěje k dobrému výsledku v
+soutěži. Shrňte svůj poznatek do nového issue a dejte ho tak k dispozici
+ostaním soutěžícím! Poznatky ověřené komunitou budeme postupně zapracovávat do
+publikace *Robotour -- Osvědčené Postupy* (aka Proven Practicies). Nová edice bude
+k dispozici jednou ročně.
+
+== English
+
+Originally Czech contest of autonomous robots navigating on paved park roads.
+Robots carry payload (five liter barrel). The contest is annual on falls.
+
+=== Rules
+
+The current version of the rules is always available
+https://github.com/robotika/robotour/tree/master/rules/rules.md[this repository] and at
+the same time https://robotika.cz/competitions/robotour/cs[online].
+
+=== Proven Practicies
+
+Take advantage of https://github.com/robotika/robotour/issues[issues] to share
+practicies you find useful. Everyone of us sometimes discovers useful piece of
+hardware or algorithm or anything else that will make a major contribution to a
+good result in the competition. Summarize your knowledge into a new issue and
+so make it available to the comunity! We will gradually incorporate knowledge
+verified by the members community into *Robotour -- Proven Practices* publication.
+A new edition will be available once a year.
+
+'''
+
+image::http://robotika.cz/competitions/robotour/2011/rules/robotour2010.jpg[Robotour]
+
