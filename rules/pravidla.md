@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-verze 7 (2018-02-01)
+verze 8 (2018-03-21)
 
 Cíl soutěže
 
@@ -147,7 +147,9 @@ zapojení nováčků do soutěže v následujícím roce.
 
 APPENDIX
 
-QR Code pro `lat=49.2114278 lon=18.7445554`
+QR Code pro `geo:48.8016394,16.8011145`
+
+(viz https://github.com/zxing/zxing/wiki/Barcode-Contents#geographic-information)
 
 ![QR Code](qrcode.svg)
 
