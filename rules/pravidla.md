@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-verze 8 (2018-03-21)
+verze 9 (2019-05-01)
 
 Cíl soutěže
 
@@ -24,7 +24,7 @@ Mapa
 Roboti mohou používat pouze Open Street Map (OSM). Základní požadavek těchto map je
 verifikovatelnost. Cokoliv co je verifikovatelné a lze popsat mapovými prvky
 mohou týmy předem přidat do mapy na serveru OSM. Mapy jsou určeny především pro
-lidi a při upravách je potřeba respektovat pravidla OSM.
+lidi a při úpravách je potřeba respektovat pravidla OSM.
 
 Roboti
 
@@ -71,7 +71,7 @@ robota jiného týmu, že blokuje dopravu. Od chvíle námitky musí nařčený 
 během jedné minuty opustit oblast definovanou +/- jeden metr z aktuální pozice.
 Pokud se mu to nepodaří bude robot zastaven a odstraněn z cesty. V opačném
 případě soutěž pokračuje, ale žalující tým dostane napomenutí z falešného
-nařčení. Při 3-tím a každém dalsím napomenutí, robot žalujícího týmu bude v tomto
+nařčení. Při 3-tím a každém dalším napomenutí, robot žalujícího týmu bude v tomto
 pokusu zastaven a odstraněn z cesty.
 
 
@@ -89,7 +89,7 @@ a po potřebném zásahu členů týmu pokračovat v plnění úkolu.
 
 Start
 
-Všichni roboti budou startovat v servisní oblasti. V okamžiku vyhlášení nového místa nakládové
+Všichni roboti budou startovat v servisní oblasti. V okamžiku vyhlášení nového místa nákladové
 zóny mohou roboti začít úkol okamžitě realizovat. Souřadnice nakládkové oblasti bude definovaná pomocí QR kódu.
 Místo nakládky mohou v servisní oblasti do robota zadat sami soutěžící.
 Místo vykládky obdrží robot pomocí QR-kódu v nakládkové oblasti, toto zadání již provede pořadatel bez interakce týmu.
@@ -101,7 +101,7 @@ Nakládková a vykládková oblast bude definovaná jako kružnice s poloměrem 
 Pokud robot dosáhne cílové pozice (nakládková i vykládková oblast),
 je třeba tuto skutečnost nějak indikovat např.  pomocí zvukového signálu.
 Rozhodčí provede nakládku nebo vykládku. V místě nakládky pak organizátor pomocí QR-kódu
-zadá do robota místo požadované vykládky. Organizator oznámí robotovi ukončení nakládky/vykládky
+zadá do robota místo požadované vykládky. Organizátor oznámí robotovi ukončení nakládky/vykládky
 týmem definovaným, jednoduchým, způsobem, např. stiskem tlačítka. Potom už robot pokračuje v autonomní jízdě.
 
 
@@ -117,6 +117,8 @@ Za vyjetí z cesty, kolizi a použití STOP tlačítka dostává robot penále
 indikaci (nejlépe pomocí blikání jako na autě). V tomto případě robot trestné body nezískává,
 ale dané kolo tím již pro něj končí. Skóre za dané kolo nemůže být záporné.
 
+Za dosažení autonomní oblasti robot získává 1 bod.
+
 
 Organizace
 
@@ -127,6 +129,7 @@ Kolo začíná vždy v určený čas vyhlášením místa nakládky a končí po
 Rychlost v této soutěži nehraje primární roli a neměla by překročit 2.5m/s.
 Každý tým musí zajistit jednu osobu znalou pravidel, která bude během soutěžního dne patřit do
 týmu rozhodčích.
+
 
 Homologace
 
@@ -145,7 +148,7 @@ požádány o podrobnější dokumentaci pro webovou prezentaci a tedy zjednodu�
 zapojení nováčků do soutěže v následujícím roce.
 
 
-APPENDIX
+Příloha
 
 QR Code pro `geo:48.8016394,16.8011145`
 
