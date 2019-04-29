@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-version 8 (2018-03-21)
+version 9 (2019-05-01)
 
 The Goal of the contest
 
@@ -11,6 +11,7 @@ neither easy nor short, but we believe that the outcome is worth it.
 
 Rules
 
+
 Task
 
 The task for the robots is to pickup payload in loading area, deliver it to
@@ -20,6 +21,7 @@ as far as 1km. Robots must be fully autonomous, not leave the road
 and choose correct path on junctions. The coordinates of loading and unloading zones will
 be the same for all robots.
 
+
 Map
 
 The robots can only use Open Street Map. The key concept of this map is its
@@ -27,6 +29,7 @@ verifiability.  Anything that is verifiable and can be described in map features
 can be used by the teams to update the map of the contest area. Note, that Open
 Street Map is primarily used for people, and certain rules have to be
 respected.
+
 
 Robots
 
@@ -52,12 +55,14 @@ The robots are expected to stay “on the road” which means to stay on the pav
 passage ways. If any robot leaves the road, team receives penalization and the trial ends.
 The team has to take care of their robot and remove it immediately.
 
+
 Obstacles
 
 There can be obstacles on the road. Besides natural obstacles like benches
 there can be also artificial obstacles. A typical (artificial) obstacle is for example a
 figurant, a banana paper box or other robot. Robots may not touch an obstacle.
 Contact with an obstacle means penalization and end of the trial.
+
 
 Robots Interaction
 
@@ -86,6 +91,7 @@ service area. In the semiautonomous area the robot has to navigate autonomously
 but in a case of problem the team can take the robot back to service area without
 penalization and continue with the trial.
 
+
 Start
 
 All robots will start simultaneously within the service
@@ -94,6 +100,7 @@ The coordinates will be defined via QR code. Contestants can pass the
 entry to their robot in the service area. Unloading zone coordinates
 will be passed to robot by organizers using QR code in loading zone.
 
+
 Reaching goal
 
 Loading and unloading area is defined as 10m diameter around given coordinate.
@@ -101,6 +108,7 @@ The robot has to indicate when the goal is reached (in both loading and
 unloading area), for example via sound signal. Organizer will load/unload the barrel.
 In loading zone, organizer will enter the unloading zone coordinates using QR code.
 Finish of loading/unloading operation will be signalized to robot by team-defined, simple way, for example pressing of button.
+
 
 Score
 
@@ -116,16 +124,20 @@ any time, by stopping and indicating (for example flashing lights).
 In this case no penalty is enforced, but given round is over for this particular
 robot. The score for one round shall not be negative.
 
+Robot gains 1 point for reaching the autonomous area.
+
+
 Organization
 
 The contest will consist of 1+4 trials. First test trial and 4 contest trials.
 The coordinates of loading and unloading zone will be different for every trial.
 Scores from all 4 contest trials are summed into final score.
-Each trial is started at given time by announcment of loading zone coordinates
+Each trial is started at given time by announcement of loading zone coordinates
 and ends 60 minutes later.
 The speed of the robots is not important, robot should not move faster than 2.5m/s.
 Each team has to arrange for one person familiar with the rules that will be part of
 the referee team during the competition.
+
 
 Homologation
 
@@ -134,6 +146,7 @@ Necessary condition is the ability to travel 10 meters long route
 fragment without collision with an obstacle.
 The functionality of the EMERGENCY STOP will be tested.
 Complete loading procedure will be tested - signalization, manual load, QR-code entry and continue of trial.
+
 
 Technical documentation
 
