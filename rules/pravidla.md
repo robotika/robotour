@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-verze 9 (2019-05-01)
+verze 10 (2023-04-04)
 
 Cíl soutěže
 
@@ -105,12 +105,20 @@ zadá do robota místo požadované vykládky. Organizátor oznámí robotovi uk
 týmem definovaným, jednoduchým, způsobem, např. stiskem tlačítka. Potom už robot pokračuje v autonomní jízdě.
 
 
+Opětovná nakládka
+
+V místě vykládky se tým může rozhodnout, zda se pokusí o zopakování nakládky a vykládky, nebo robot
+bude pokračovat zpět do servisní oblasti. Je třeba zvážit zbývající čas do konce pokusu, stav
+baterek robota a zkušeností z poslední jízdy nakládka-vykládka, kterou je třeba ještě projet tam a zpět.
+
+
 Bodování
 
 Vyhrává tým, jehož robot bude úkol nejlépe plnit. Bodované je pouze dosažení
 cílové pozice - nakládka i vykládka = 10 bodů. Robot ještě získá dalších 10 bodů, pokud se po
-splnění dodávky vrátí do servisní oblasti. Celkově lze tedy v jednom kole získat
-až 30 bodů.
+splnění dodávky vrátí do servisní oblasti. V místě vykládky se tým může rozhodnot o opakování dodávky
+a v případě úspěchu získá dalších 20 bodů. Pokud se robotu podaří pouze vrátit na místo první nakládky
+tak ale nezískává žádné body. Celkově lze tedy v jednom kole získat až 50 bodů.
 
 Za vyjetí z cesty, kolizi a použití STOP tlačítka dostává robot penále
 5 bodů. Robot může kdykoliv během jízdy svůj pokus ukončit zastavením a

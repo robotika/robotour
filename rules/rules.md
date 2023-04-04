@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-version 9 (2019-05-01)
+version 10 (2023-04-04)
 
 The Goal of the contest
 
@@ -107,7 +107,16 @@ Loading and unloading area is defined as 10m diameter around given coordinate.
 The robot has to indicate when the goal is reached (in both loading and
 unloading area), for example via sound signal. Organizer will load/unload the barrel.
 In loading zone, organizer will enter the unloading zone coordinates using QR code.
-Finish of loading/unloading operation will be signalized to robot by team-defined, simple way, for example pressing of button.
+Finish of loading/unloading operation will be signalized to robot by team-defined,
+simple way, for example pressing of button.
+
+
+Repeated delivery
+
+At the unloading point, the team can decide whether to try to repeat the loading and unloading,
+or the robot will continue back to the service area. It is necessary to consider the remaining
+time until the end of the attempt, the status batteries of the robot and the experience of the last
+loading-unloading trip, which still needs to be driven there and back.
 
 
 Score
@@ -115,8 +124,10 @@ Score
 The team whose robot manage best to proceed along the route wins. Only reaching
 the goals positions is awarded 10 points for reaching the load area and 10 points
 for reaching the unload area. Finally 10 points can be gained for return to
-service area after task completion. In total the team can get maximum of 30 points
-per run.
+service area after task completion. At the unloading point, the team may consider
+repeating the delivery and in case of success it gets another 20 points. If the robot
+only manages to return to the place of the first loading so he doesn't get any points.
+In total, the team can get maximum of 50 points per run.
 
 There is also a penalty 5 points if robot leaves the road, collides with an obstacle,
 or must be stopped by emergency STOP button. The robot can terminate its attempt
