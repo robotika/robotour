@@ -1,6 +1,6 @@
 Robotour - robotika.cz outdoor delivery challenge
 
-verze 9 (2019-05-01)
+verze 10 (2023-04-04)
 
 Cíl soutěže
 
