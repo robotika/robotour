@@ -33,11 +33,14 @@ které robota zastaví. Tlačítko musí být snadno přístupné, červené a m
 pevnou součástí robota (aka Big Red Switch), aby se v případě hrozícího
 nebezpečí dalo snadno stisknout.  Minimální velikost tlačítka je definované
 vepsanou kružnicí o průměru 2cm. S robotem musí být možnost snadno manipulovat:
-libovolné dvě dospělé osoby ho mohou odnést několik desítek metrů. Robot musí
-být schopen uvézt užitečný náklad, který představuje 5l pivní soudek. Rozhodčí
-musí být schopen tento soudek na robota naložit a vyložit bez použití nářadí.
+libovolné dvě dospělé osoby ho mohou odnést několik desítek metrů.
+
+Robot musí být schopen uvézt užitečný náklad, který představuje 5l pivní soudek
+nebo 500ml plechovku s nápojem (1/10th category). Rozhodčí musí být schopen tento
+soudek/plechovku na robota naložit a vyložit bez použití nářadí.
 Z důvodu detekovatelnosti je definovaná minimální velikost robota, robot nesmí
 být menší než 5l soudek a to i když právě nemá svůj soudek naložený.
+
 Použití tekutin, žíravin, pyrotechnických materiálů a živých bytostí je zakázáno.
 Každý robot bude během jízd doprovázen jednou osobou z
 týmu, starší 18 let, která je za jeho chování zcela zodpovědná.
@@ -115,10 +118,12 @@ baterek robota a zkušeností z poslední jízdy nakládka-vykládka, kterou je 
 Bodování
 
 Vyhrává tým, jehož robot bude úkol nejlépe plnit. Bodované je pouze dosažení
-cílové pozice - nakládka i vykládka = 10 bodů. Robot ještě získá dalších 10 bodů, pokud se po
+cílové pozice - nakládka i vykládka = 10 bodů pro robota s 5l sudem a 5 bodů pro robota s 500ml plechovkou.
+Robot ještě získá dalších 10 bodů, pokud se po
 splnění dodávky vrátí do servisní oblasti. V místě vykládky se tým může rozhodnot o opakování dodávky
-a v případě úspěchu získá dalších 20 bodů. Pokud se robotu podaří pouze vrátit na místo první nakládky
-tak ale nezískává žádné body. Celkově lze tedy v jednom kole získat až 50 bodů.
+a v případě úspěchu získá dalších 20 bodů (10 bodů v případě robota s 500ml plechovkou).
+Pokud se robotu podaří pouze vrátit na místo první nakládky
+tak ale nezískává žádné body.
 
 Za vyjetí z cesty, kolizi a použití STOP tlačítka dostává robot penále
 5 bodů. Robot může kdykoliv během jízdy svůj pokus ukončit zastavením a
@@ -126,6 +131,8 @@ indikaci (nejlépe pomocí blikání jako na autě). V tomto případě robot tr
 ale dané kolo tím již pro něj končí. Skóre za dané kolo nemůže být záporné.
 
 Za dosažení autonomní oblasti robot získává 1 bod.
+Celkově lze tedy v jednom kole získat až 51 bodů pro robota s 5l soudkem a 31 bodů pro robota
+s 500ml plechovkou.
 
 
 Organizace
