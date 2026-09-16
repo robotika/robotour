@@ -40,10 +40,13 @@ danger. The minimum size of the switch is defined by an inscribed circle with
 diameter of 2cm.
 The team must show that it is easy to manipulate with the
 robot - two people must be able to carry it several tens of meters.
-Robot has to be able to carry full 5l beer barrel, which
-should be easy to load and unload.
-Size of robot even without the barrel should at least the same as the barrel
-to allow easy detection by other robots.
+
+Robot has to be able to carry a useful payload, which is a 5l beer keg
+or a 500ml beverage can (1/10th category). The referee must be able to
+load and unload this keg/can onto the robot without using tools.
+Due to detectability, a minimum robot size is defined; the robot must not
+be smaller than a 5l keg even when it does not currently have its keg loaded.
+
 Usage of liquids, corrosive, pyrotechnic material and live beings is strictly
 prohibited.
 Every robot has to be accompanied by a team member, older than 18 years,
@@ -122,12 +125,12 @@ loading-unloading trip, which still needs to be driven there and back.
 Score
 
 The team whose robot manage best to proceed along the route wins. Only reaching
-the goals positions is awarded 10 points for reaching the load area and 10 points
-for reaching the unload area. Finally 10 points can be gained for return to
+the goals positions is awarded 10 points for a robot with a 5l keg and 5 points for a robot
+with a 500ml can for reaching the load area, and the same amount for reaching the unload area.
+Finally 10 points can be gained for return to
 service area after task completion. At the unloading point, the team may consider
-repeating the delivery and in case of success it gets another 20 points. If the robot
-only manages to return to the place of the first loading so he doesn't get any points.
-In total, the team can get maximum of 50 points per run.
+repeating the delivery and in case of success it gets another 20 points (10 points in case of a robot with a 500ml can).
+If the robot only manages to return to the place of the first loading so he doesn't get any points.
 
 There is also a penalty 5 points if robot leaves the road, collides with an obstacle,
 or must be stopped by emergency STOP button. The robot can terminate its attempt
@@ -136,6 +139,7 @@ In this case no penalty is enforced, but given round is over for this particular
 robot. The score for one round shall not be negative.
 
 Robot gains 1 point for reaching the autonomous area.
+In total, the team can get maximum of 51 points per run for a robot with a 5l keg and 31 points for a robot with a 500ml can.
 
 
 Organization
