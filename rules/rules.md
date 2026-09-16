@@ -1,18 +1,18 @@
-Robotour - robotika.cz outdoor delivery challenge
+# Robotour - robotika.cz outdoor delivery challenge
 
-version 10 (2023-04-04)
+version 11 (2026-02-14)
 
-The Goal of the contest
+## The Goal of the contest
 
 The objective of the Robotour contest is to encourage development of robots
 capable of transporting you to work in the morning or to deliver the building
 material you have just purchased in an online shop. The path to this goal is
 neither easy nor short, but we believe that the outcome is worth it.
 
-Rules
+## Rules
 
 
-Task
+### Task
 
 The task for the robots is to pickup payload in loading area, deliver it to
 the destination for unloading and return back to service area. This has to be
@@ -22,7 +22,7 @@ and choose correct path on junctions. The coordinates of loading and unloading z
 be the same for all robots.
 
 
-Map
+### Map
 
 The robots can only use Open Street Map. The key concept of this map is its
 verifiability.  Anything that is verifiable and can be described in map features
@@ -31,7 +31,7 @@ Street Map is primarily used for people, and certain rules have to be
 respected.
 
 
-Robots
+### Robots
 
 Team can deploy only one robot. Every robot must have EMERGENCY STOP button,
 which stops its motion. The button must be easily accessible, red and must be
@@ -40,23 +40,26 @@ danger. The minimum size of the switch is defined by an inscribed circle with
 diameter of 2cm.
 The team must show that it is easy to manipulate with the
 robot - two people must be able to carry it several tens of meters.
-Robot has to be able to carry full 5l beer barrel, which
-should be easy to load and unload.
-Size of robot even without the barrel should at least the same as the barrel
-to allow easy detection by other robots.
+
+Robot has to be able to carry a useful payload, which is a 5l beer keg
+or a 500ml beverage can (1/10th category). The referee must be able to
+load and unload this keg/can onto the robot without using tools.
+Due to detectability, a minimum robot size is defined; the robot must not
+be smaller than a 5l keg even when it does not currently have its keg loaded.
+
 Usage of liquids, corrosive, pyrotechnic material and live beings is strictly
 prohibited.
 Every robot has to be accompanied by a team member, older than 18 years,
 who is fully responsible for the robot behavior.
 
-Leaving the road
+### Leaving the road
 
 The robots are expected to stay “on the road” which means to stay on the paved
 passage ways. If any robot leaves the road, team receives penalization and the trial ends.
 The team has to take care of their robot and remove it immediately.
 
 
-Obstacles
+### Obstacles
 
 There can be obstacles on the road. Besides natural obstacles like benches
 there can be also artificial obstacles. A typical (artificial) obstacle is for example a
@@ -64,7 +67,7 @@ figurant, a banana paper box or other robot. Robots may not touch an obstacle.
 Contact with an obstacle means penalization and end of the trial.
 
 
-Robots Interaction
+### Robots Interaction
 
 The cases where a faster robot catches up a slower one won't be explicitly
 handled. The faster robot can handle the slower robot as an obstacle, i.e.
@@ -79,7 +82,7 @@ contest continues and suing team gets warning for false judge. With 3rd and all
 other warnings the robot of suing team is stopped and removed from the road.
 
 
-Autonomous, semiautonomous and service areas
+### Autonomous, semiautonomous and service areas
 
 The competition area is divided into "Autonomous Area" and "Service Area".
 Outside of service area the robots must move in autonomous mode only.
@@ -92,7 +95,7 @@ but in a case of problem the team can take the robot back to service area withou
 penalization and continue with the trial.
 
 
-Start
+### Start
 
 All robots will start simultaneously within the service
 area. At given time the coordinates of loading area will be announced.
@@ -101,7 +104,7 @@ entry to their robot in the service area. Unloading zone coordinates
 will be passed to robot by organizers using QR code in loading zone.
 
 
-Reaching goal
+### Reaching goal
 
 Loading and unloading area is defined as 10m diameter around given coordinate.
 The robot has to indicate when the goal is reached (in both loading and
@@ -111,7 +114,7 @@ Finish of loading/unloading operation will be signalized to robot by team-define
 simple way, for example pressing of button.
 
 
-Repeated delivery
+### Repeated delivery
 
 At the unloading point, the team can decide whether to try to repeat the loading and unloading,
 or the robot will continue back to the service area. It is necessary to consider the remaining
@@ -119,15 +122,15 @@ time until the end of the attempt, the status batteries of the robot and the exp
 loading-unloading trip, which still needs to be driven there and back.
 
 
-Score
+### Score
 
 The team whose robot manage best to proceed along the route wins. Only reaching
-the goals positions is awarded 10 points for reaching the load area and 10 points
-for reaching the unload area. Finally 10 points can be gained for return to
+the goals positions is awarded 10 points for a robot with a 5l keg and 5 points for a robot
+with a 500ml can for reaching the load area, and the same amount for reaching the unload area.
+Finally 10 points can be gained for return to
 service area after task completion. At the unloading point, the team may consider
-repeating the delivery and in case of success it gets another 20 points. If the robot
-only manages to return to the place of the first loading so he doesn't get any points.
-In total, the team can get maximum of 50 points per run.
+repeating the delivery and in case of success it gets another 20 points (10 points in case of a robot with a 500ml can).
+If the robot only manages to return to the place of the first loading so he doesn't get any points.
 
 There is also a penalty 5 points if robot leaves the road, collides with an obstacle,
 or must be stopped by emergency STOP button. The robot can terminate its attempt
@@ -136,9 +139,10 @@ In this case no penalty is enforced, but given round is over for this particular
 robot. The score for one round shall not be negative.
 
 Robot gains 1 point for reaching the autonomous area.
+In total, the team can get maximum of 51 points per run for a robot with a 5l keg and 31 points for a robot with a 500ml can.
 
 
-Organization
+## Organization
 
 The contest will consist of 1+4 trials. First test trial and 4 contest trials.
 The coordinates of loading and unloading zone will be different for every trial.
@@ -150,7 +154,7 @@ Each team has to arrange for one person familiar with the rules that will be par
 the referee team during the competition.
 
 
-Homologation
+## Homologation
 
 A team can participate in the contest if it is able to score some points.
 Necessary condition is the ability to travel 10 meters long route
@@ -159,7 +163,7 @@ The functionality of the EMERGENCY STOP will be tested.
 Complete loading procedure will be tested - signalization, manual load, QR-code entry and continue of trial.
 
 
-Technical documentation
+## Technical documentation
 
 Every team has to provide basic technical documentation about their robot (for
 presentations, general public and journalists). Three winning teams will be
@@ -167,7 +171,7 @@ asked for more detail description for website presentation and easier entry of
 novices in the next year.
 
 
-APPENDIX
+# APPENDIX
 
 QR Code for `geo:48.8016394,16.8011145`
 

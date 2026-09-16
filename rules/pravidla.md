@@ -1,17 +1,17 @@
-Robotour - robotika.cz outdoor delivery challenge
+# Robotour - robotika.cz outdoor delivery challenge
 
-verze 10 (2023-04-04)
+verze 11 (2026-02-14)
 
-Cíl soutěže
+## Cíl soutěže
 
 Cílem soutěže Robotour je podpořit vývoj robotů schopných dopravit vás třeba
 ráno do práce nebo vám přivézt stavební materiál, co jste si právě objednali v
 online obchodě. Cesta k takovému cíli nebude ani jednoduchá ani krátká, ale
 věříme, že výsledek bude stát za to.
 
-Pravidla
+## Pravidla
 
-Úkol
+### Úkol
 
 Úkolem robotů je v zadaném časovém limitu 1h vyzvednout náklad v nakládkové
 oblasti, dopravit ho do zadané vykládkové oblasti (vzdálené až 1km) a
@@ -19,37 +19,40 @@ vrátit se zpět do startovní oblasti. Roboti musí být plně samostatní, nes
 cesty, nebourat do překážek a správně se rozhodovat na křižovatkách.
 Místo startu i místo cíle bude pro všechny roboty stejné.
 
-Mapa
+### Mapa
 
 Roboti mohou používat pouze Open Street Map (OSM). Základní požadavek těchto map je
 verifikovatelnost. Cokoliv co je verifikovatelné a lze popsat mapovými prvky
 mohou týmy předem přidat do mapy na serveru OSM. Mapy jsou určeny především pro
 lidi a při úpravách je potřeba respektovat pravidla OSM.
 
-Roboti
+### Roboti
 
 Tým může nasadit pouze jednoho robota. Robot musí mít EMERGENCY STOP tlačítko,
 které robota zastaví. Tlačítko musí být snadno přístupné, červené a musí být
 pevnou součástí robota (aka Big Red Switch), aby se v případě hrozícího
 nebezpečí dalo snadno stisknout.  Minimální velikost tlačítka je definované
 vepsanou kružnicí o průměru 2cm. S robotem musí být možnost snadno manipulovat:
-libovolné dvě dospělé osoby ho mohou odnést několik desítek metrů. Robot musí
-být schopen uvézt užitečný náklad, který představuje 5l pivní soudek. Rozhodčí
-musí být schopen tento soudek na robota naložit a vyložit bez použití nářadí.
+libovolné dvě dospělé osoby ho mohou odnést několik desítek metrů.
+
+Robot musí být schopen uvézt užitečný náklad, který představuje 5l pivní soudek
+nebo 500ml plechovku s nápojem (1/10th category). Rozhodčí musí být schopen tento
+soudek/plechovku na robota naložit a vyložit bez použití nářadí.
 Z důvodu detekovatelnosti je definovaná minimální velikost robota, robot nesmí
 být menší než 5l soudek a to i když právě nemá svůj soudek naložený.
+
 Použití tekutin, žíravin, pyrotechnických materiálů a živých bytostí je zakázáno.
 Každý robot bude během jízd doprovázen jednou osobou z
 týmu, starší 18 let, která je za jeho chování zcela zodpovědná.
 
-Vyjetí z cesty
+### Vyjetí z cesty
 
 Je dovoleno se pohybovat pouze po parkových cestičkách. Pokud robot sjede z
 cesty, tým dostává bodovou penalizaci a aktuální pokus pro něj končí.
 O jeho včasné odklizení se musí postarat soutěžící tým.
 
 
-Překážky
+### Překážky
 
 Na trase se mohou nacházet překážky. Kromě překážek
 přirozených (lavičky atp.) mohou být na trať umísťovány i překážky umělé. Za
@@ -58,7 +61,7 @@ banánů či jiný robot. Roboti nesmí vejít v kontakt s překážkou. Kontakt
 překážkou znamená bodovou penalizaci a ukončení pokusu.
 
 
-Interakce robotů
+### Interakce robotů
 
 Situace, kdy rychlejší robot dojede robota pomalejšího, nebude nijak zvláštně
 řešena. Rychlejší robot se může k pomalejšímu zachovat například jako k
@@ -75,7 +78,7 @@ nařčení. Při 3-tím a každém dalším napomenutí, robot žalujícího tý
 pokusu zastaven a odstraněn z cesty.
 
 
-Autonomní, semiautonomní a servisní oblast
+### Autonomní, semiautonomní a servisní oblast
 
 Prostor soutěže bude rozdělen na "Autonomní oblast" (AO) a "Servisní oblast" (SO).
 Mimo servisní se roboti mohou pohybovat pouze v autonomním režimu.
@@ -87,7 +90,7 @@ Robot se kdykoliv během kola může sám vrátit do servisní oblasti, nebo ale
 a po potřebném zásahu členů týmu pokračovat v plnění úkolu.
 
 
-Start
+### Start
 
 Všichni roboti budou startovat v servisní oblasti. V okamžiku vyhlášení nového místa nákladové
 zóny mohou roboti začít úkol okamžitě realizovat. Souřadnice nakládkové oblasti bude definovaná pomocí QR kódu.
@@ -95,7 +98,7 @@ Místo nakládky mohou v servisní oblasti do robota zadat sami soutěžící.
 Místo vykládky obdrží robot pomocí QR-kódu v nakládkové oblasti, toto zadání již provede pořadatel bez interakce týmu.
 
 
-Dosažení cíle
+### Dosažení cíle
 
 Nakládková a vykládková oblast bude definovaná jako kružnice s poloměrem cca 10m okolo zadané souřadnice.
 Pokud robot dosáhne cílové pozice (nakládková i vykládková oblast),
@@ -105,20 +108,22 @@ zadá do robota místo požadované vykládky. Organizátor oznámí robotovi uk
 týmem definovaným, jednoduchým, způsobem, např. stiskem tlačítka. Potom už robot pokračuje v autonomní jízdě.
 
 
-Opětovná nakládka
+### Opětovná nakládka
 
 V místě vykládky se tým může rozhodnout, zda se pokusí o zopakování nakládky a vykládky, nebo robot
 bude pokračovat zpět do servisní oblasti. Je třeba zvážit zbývající čas do konce pokusu, stav
 baterek robota a zkušeností z poslední jízdy nakládka-vykládka, kterou je třeba ještě projet tam a zpět.
 
 
-Bodování
+### Bodování
 
 Vyhrává tým, jehož robot bude úkol nejlépe plnit. Bodované je pouze dosažení
-cílové pozice - nakládka i vykládka = 10 bodů. Robot ještě získá dalších 10 bodů, pokud se po
+cílové pozice - nakládka i vykládka = 10 bodů pro robota s 5l sudem a 5 bodů pro robota s 500ml plechovkou.
+Robot ještě získá dalších 10 bodů, pokud se po
 splnění dodávky vrátí do servisní oblasti. V místě vykládky se tým může rozhodnot o opakování dodávky
-a v případě úspěchu získá dalších 20 bodů. Pokud se robotu podaří pouze vrátit na místo první nakládky
-tak ale nezískává žádné body. Celkově lze tedy v jednom kole získat až 50 bodů.
+a v případě úspěchu získá dalších 20 bodů (10 bodů v případě robota s 500ml plechovkou).
+Pokud se robotu podaří pouze vrátit na místo první nakládky
+tak ale nezískává žádné body.
 
 Za vyjetí z cesty, kolizi a použití STOP tlačítka dostává robot penále
 5 bodů. Robot může kdykoliv během jízdy svůj pokus ukončit zastavením a
@@ -126,9 +131,11 @@ indikaci (nejlépe pomocí blikání jako na autě). V tomto případě robot tr
 ale dané kolo tím již pro něj končí. Skóre za dané kolo nemůže být záporné.
 
 Za dosažení autonomní oblasti robot získává 1 bod.
+Celkově lze tedy v jednom kole získat až 51 bodů pro robota s 5l soudkem a 31 bodů pro robota
+s 500ml plechovkou.
 
 
-Organizace
+## Organizace
 
 Soutěž bude mít 1+4 kola. Jedno nebodované předkolo a 4 ostrá soutěžní.
 Pro každé kolo bude vybrán jiný bod nakládky a vykládky. Do celkového výsledku se
@@ -139,7 +146,7 @@ Každý tým musí zajistit jednu osobu znalou pravidel, která bude během sout
 týmu rozhodčích.
 
 
-Homologace
+## Homologace
 
 Tým se může zúčastnit soutěže, pokud ukáže, že je schopen získat body.
 Nutnou podmínkou je projet desetimetrový úsek bez kontaktu s překážkou.
@@ -148,7 +155,7 @@ Během homologace se otestuje proces nakládky tj. signalizace dosažení oblast
 manuální nakládka, zadání oblasti vykládky a spuštění další jízdy.
 
 
-Technická dokumentace
+## Technická dokumentace
 
 Každý tým dodá ke svému robotu (robotům) základní technickou dokumentaci (pro
 prezentace, veřejnost a novináře). Vítězné týmy (1. až 3. místo) pak budou
@@ -156,7 +163,7 @@ požádány o podrobnější dokumentaci pro webovou prezentaci a tedy zjednodu�
 zapojení nováčků do soutěže v následujícím roce.
 
 
-Příloha
+# Příloha
 
 QR Code pro `geo:48.8016394,16.8011145`
 
